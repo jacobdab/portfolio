@@ -1,0 +1,337 @@
+<% include ../partials/headersite %>
+
+<section class="subCategory mt-5 pt-5">
+    <div class="modal fade" id="ModalAddProduct" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form method="post" action="/shop/addProduct">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Dodaj produkt</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <% include ../partials/addProduct %>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary modalButton">Przejdź dalej</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/shop">iPlanet Sklep</a></li>
+                <li class="breadcrumb-item"><a href="/shop/<%= BreadCrumb.category %>"> <%= BreadCrumb.category %></a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page"><%= BreadCrumb.subCategory %></li>
+            </ol>
+        </nav>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalAddProduct">
+            Dodaj produkt
+        </button>
+        <div class="row">
+            <%if(BreadCrumb.category == 'iPad'){%>
+            <div class="col-lg-2">
+                <h3><b>Filtry</b></h3>
+                <div class="filters">
+                    <div class="col-lg-12">
+                        <h5>Kolor</h5>
+                        <ul class="list-group">
+                            <% color.forEach((productE, i)=>{ %>
+                                <li class="list-group-item p-0 p-0"><a class="filter"
+                                                               href="f=color[<%= productE.color %>]"><%= productE.color %><span href="f=color[<%= productE.color %>]"
+                                                class="badge badge-secondary"><%= colorCount[i] %></span></a></li>
+                            <% }) %>
+                        </ul>
+                    </div>
+                    <div class="col-lg-12">
+                        <h5>Ilość ram</h5>
+                        <ul class="list-group">
+                            <% ram.forEach((productE, i)=>{ %>
+                                <li class="list-group-item p-0"><a class="filter"
+                                                               href="f=ram[<%= productE.ram %>]"><%= productE.ram %><span href="f=ram[<%= productE.ram %>]">
+                                                class="badge badge-secondary"><%= ramCount[i] %></span></a></li>
+                            <% }) %>
+                        </ul>
+                    </div>
+                    <div class="col-lg-12">
+                        <h5>Pojemność dysku</h5>
+                        <ul class="list-group">
+                            <% hdd.forEach((productE, i)=>{ %>
+                                <li class="list-group-item p-0"><a class="filter"
+                                                               href="f=hdd[<%= productE.hdd %>]"><%= productE.hdd %><span href="f=hdd[<%= productE.hdd %>]">
+                                                class="badge badge-secondary"><%= hddCount[i] %></span></a></li>
+                            <% }) %>
+                        </ul>
+                    </div>
+                    <div class="col-lg-12">
+                        <h5>Połączenie</h5>
+                        <ul>
+                            <% conn.forEach((productE, i)=>{ %>
+                                <li class="list-group-item p-0"><a class="filter"
+                                                               href="f=connection[<%= productE.connection %>]"><%= productE.connection %><span href="f=connection[<%= productE.connection %>]"
+                                                class="badge badge-secondary"><%= connCount[i] %></span></a></li>
+                            <% }) %>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <%}else if(BreadCrumb.category == 'iPhone'){%>
+            <div class="col-lg-2">
+                        <h3><b>Filtry</b></h3>
+                <div class="filters">
+                        <div class="col-lg-12">
+                        <h5>Kolor</h5>
+                        <ul class="list-group">
+            <% color.forEach((productE, i)=>{ %>
+                    <li class="list-group-item p-0"><a class="filter"
+                                                   href="f=color[<%= productE.color %>]"><%= productE.color %><span href="f=color[<%= productE.color %>]"
+                                    class="badge badge-secondary"><%= colorCount[i] %></span></a></li>
+                <% }) %>
+                </ul>
+        </div>
+        <div class="col-lg-12">
+            <h5>Pojemność dysku</h5>
+            <ul class="list-group">
+                <% hdd.forEach((productE, i)=>{ %>
+                    <li class="list-group-item p-0"><a class="filter"
+                                                   href="f=hdd[<%= productE.hdd %>]"><%= productE.hdd %><span href="f=hdd[<%= productE.hdd %>]"
+                                                                                                              class="badge badge-secondary"><%= hddCount[i] %></span></a></li>
+                <% }) %>
+            </ul>
+        </div>
+    </div>
+    </div>
+                <%}else if(BreadCrumb.category == 'Mac' && BreadCrumb.subCategory == 'Mac mini'){%>
+                    <div class="col-lg-2">
+                        <h3><b>Filtry</b></h3>
+                        <div class="filters">
+                            <div class="col-lg-12">
+                                <h5>Kolor</h5>
+                                <ul class="list-group">
+                                    <% color.forEach((productE, i)=>{ %>
+                                        <li class="list-group-item p-0"><a class="filter"
+                                                                       href="f=color[<%= productE.color %>]"><%= productE.color %><span href="f=color[<%= productE.color %>]"
+                                                        class="badge badge-secondary"><%= colorCount[i] %></span></a></li>
+                                    <% }) %>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12">
+                                <h5>Ilość ram</h5>
+                                <ul class="list-group">
+                                    <% ram.forEach((productE, i)=>{ %>
+                                        <li class="list-group-item p-0"><a class="filter"
+                                                                       href="f=ram[<%= productE.ram %>]"><%= productE.ram %><span href="f=ram[<%= productE.ram %>]"
+                                                        class="badge badge-secondary"><%= ramCount[i] %></span></a></li>
+                                    <% }) %>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12">
+                                <h5>Pojemność dysku</h5>
+                                <ul class="list-group">
+                                    <% hdd.forEach((productE, i)=>{ %>
+                                        <li class="list-group-item p-0"><a class="filter"
+                                                                       href="f=hdd[<%= productE.hdd %>]"><%= productE.hdd %><span href="f=hdd[<%= productE.hdd %>]"
+                                                        class="badge badge-secondary"><%= hddCount[i] %></span></a></li>
+                                    <% }) %>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12">
+                                <h5>Połączenie</h5>
+                                <ul>
+                                    <% conn.forEach((productE, i)=>{ %>
+                                        <li class="list-group-item p-0"><a class="filter"
+                                                                       href="f=connection[<%= productE.connection %>]"><%= productE.connection %><span href="f=connection[<%= productE.connection %>]"
+                                                        class="badge badge-secondary"><%= connCount[i] %></span></a></li>
+                                    <% }) %>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12">
+                                <h5>Procesor</h5>
+                                <ul class="list-group">
+                                    <% cpu.forEach((productE, i)=>{ %>
+                                        <li class="list-group-item p-0"><a class="filter"
+                                                                       href="f=cpu[<%= productE.cpu %>]"><%= productE.cpu %><span  href="f=cpu[<%= productE.cpu %>]">
+                                                        class="badge badge-secondary"><%= cpuCount[i] %></span></a></li>
+                                    <% }) %>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12">
+                                <h5>Prędkość procesora</h5>
+                                <ul class="list-group">
+                                    <% cpuSpeed.forEach((productE, i)=>{ %>
+                                        <li class="list-group-item p-0"><a class="filter"
+                                                                       href="f=cpu[<%= productE.cpuSpeed %>]"><%= productE.cpuSpeed %><span href="f=cpu[<%= productE.cpuSpeed %>]"
+                                                        class="badge badge-secondary"><%= cpuSpeedCount[i] %></span></a></li>
+                                    <% }) %>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            <%}else if(BreadCrumb.category== 'Mac'){%>
+                    <div class="col-lg-2">
+                        <h3><b>Filtry</b></h3>
+                        <div class="filters">
+                            <div class="col-lg-12">
+                                <h5>Kolor</h5>
+                                <ul class="list-group">
+                                    <% color.forEach((productE, i)=>{ %>
+                                        <li class="list-group-item p-0"><a class="filter"
+                                                                       href="f=color[<%= productE.color %>]"><%= productE.color %><span href="f=color[<%= productE.color %>]"
+                                                        class="badge badge-secondary"><%= colorCount[i] %></span></a></li>
+                                    <% }) %>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12">
+                                <h5>Ilość ram</h5>
+                                <ul class="list-group">
+                                    <% ram.forEach((productE, i)=>{ %>
+                                        <li class="list-group-item p-0"><a class="filter"
+                                                                       href="f=ram[<%= productE.ram %>]"><%= productE.ram %><span href="f=ram[<%= productE.ram %>]"
+                                                        class="badge badge-secondary"><%= ramCount[i] %></span></a></li>
+                                    <% }) %>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12">
+                                <h5>Pojemność dysku</h5>
+                                <ul class="list-group">
+                                    <% hdd.forEach((productE, i)=>{ %>
+                                        <li class="list-group-item p-0"><a class="filter"
+                                                                       href="f=hdd[<%= productE.hdd %>]"><%= productE.hdd %><span href="f=hdd[<%= productE.hdd %>]"
+                                                        class="badge badge-secondary"><%= hddCount[i] %></span></a></li>
+                                    <% }) %>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12">
+                                <h5>Połączenie</h5>
+                                <ul>
+                                    <% conn.forEach((productE, i)=>{ %>
+                                        <li class="list-group-item p-0"><a class="filter"
+                                                                       href="f=connection[<%= productE.connection %>]"><%= productE.connection %><span href="f=connection[<%= productE.connection %>]"
+                                                        class="badge badge-secondary"><%= connCount[i] %></span></a></li>
+                                    <% }) %>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12">
+                                <h5>Przekątna ekranu</h5>
+                                <ul class="list-group">
+                                    <% size.forEach((productE, i)=>{ %>
+                                        <li class="list-group-item p-0"><a class="filter"
+                                                                       href="f=size[<%= productE.size %>]"><%= productE.size %><span href="f=size[<%= productE.size %>]"
+                                                        class="badge badge-secondary"><%= sizeCount[i] %></span></a></li>
+                                    <% }) %>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12">
+                                <h5>Procesor</h5>
+                                <ul class="list-group">
+                                    <% cpu.forEach((productE, i)=>{ %>
+                                        <li class="list-group-item p-0"><a class="filter"
+                                                                       href="f=cpu[<%= productE.cpu %>]"><%= productE.cpu %><span  href="f=cpu[<%= productE.cpu %>]"
+                                                        class="badge badge-secondary"><%= cpuCount[i] %></span></a></li>
+                                    <% }) %>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12">
+                                <h5>Prędkość procesora</h5>
+                                <ul class="list-group">
+                                    <% cpuSpeed.forEach((productE, i)=>{ %>
+                                        <li class="list-group-item p-0"><a class="filter"
+                                                                       href="f=cpu[<%= productE.cpuSpeed %>]"><%= productE.cpuSpeed %><span href="f=cpu[<%= productE.cpuSpeed %>]"
+                                                        class="badge badge-secondary"><%= cpuSpeedCount[i] %></span></a></li>
+                                    <% }) %>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                <%}else if(BreadCrumb.category == 'Watch'){%>
+                    <div class="col-lg-2">
+                        <h3><b>Filtry</b></h3>
+                        <div class="filters">
+                            <div class="col-lg-12">
+                                <h5>Kolor</h5>
+                                <ul class="list-group">
+                                    <% color.forEach((productE, i)=>{ %>
+                                        <li class="list-group-item p-0"><a class="filter"
+                                                                       href="f=color[<%= productE.color %>]"><%= productE.color %><span href="f=color[<%= productE.color %>]"
+                                                        class="badge badge-secondary"><%= colorCount[i] %></span></a></li>
+                                    <% }) %>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12">
+                                <h5>Rozmiar koperty</h5>
+                                <ul class="list-group">
+                                    <% caseW.forEach((productE, i)=>{ %>
+                                        <li class="list-group-item p-0"><a class="filter"
+                                                                       href="f=caseW[<%= productE.caseW %>]"><%= productE.caseW %><span href="f=caseW[<%= productE.caseW %>]"
+                                                        class="badge badge-secondary"><%= caseWCount[i] %></span></a></li>
+                                    <% }) %>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12">
+                                <h5>Kolor paska</h5>
+                                <ul class="list-group">
+                                    <% colorBands.forEach((productE, i)=>{ %>
+                                        <li class="list-group-item p-0"><a class="filter"
+                                                                       href="f=colorBands[<%= productE.colorBands %>]"><%= productE.colorBands %><span href="f=colorBands[<%= productE.colorBands %>]"
+                                                        class="badge badge-secondary"><%= colorBandsCount[i] %></span></a></li>
+                                    <% }) %>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12">
+                                <h5>Rodzaj połączenia</h5>
+                                <ul class="list-group">
+                                    <% conn.forEach((productE, i)=>{ %>
+                                        <li class="list-group-item p-0"><a class="filter"
+                                                                       href="f=conn[<%= productE.conn %>]"><%= productE.conn %><span href="f=conn[<%= productE.conn %>]"
+                                                        class="badge badge-secondary"><%= connCount[i] %></span></a></li>
+                                    <% }) %>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                <%}else if(BreadCrumb == 'Apple Tv'){%>
+
+                <%}%>
+            <div class="col-lg-10 reload">
+                <div class="row">
+                    <% products.forEach((productE)=>{ %>
+                        <div class='col-lg-4 mb-3'>
+                            <div class="card"><a
+                                        href="/shop/<%= productE.category %>/<%= productE.subCategory %>/<%= productE._id %>">
+                                    <img src="<%= productE.imageHR %>" class="card-img-top" alt="..." height="150px">
+                                    <div class="card-body" style="min-height:0">
+                                        <h5 class="text-center"
+                                            style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;"
+                                            class="card-title">
+                                            <small>
+                                                <%= productE.shortDescription %>
+                                            </small>
+                                        </h5>
+                                        <%console.log(productE)%>
+                                        <p class="card-text"><%= productE.price %> zł</p>
+                                    </div>
+                                    <form class="delete inline"
+                                          action="/shop/<%= productE.category %>/<%= productE.subCategory %>/<%= productE._id %>?_method=DELETE"
+                                          method="post">
+                                        <button class="btn btn-danger btn-xs">Usuń Produkt</button>
+                                    </form>
+                                </a>
+                            </div>
+                        </div>
+                    <% }) %>
+                </div>
+            </div>
+        </div>
+    </div>
+    <% include ../partials/modalAddParam %>
+</section>
+
+
+<% include ../partials/footersite %>

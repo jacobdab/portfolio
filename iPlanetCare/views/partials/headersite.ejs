@@ -1,0 +1,256 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="manifest" href="site.webmanifest">-->
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="/stylesheets/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/stylesheets/mainSite.css">
+    <link rel="stylesheet" href="/stylesheets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="/stylesheets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="/stylesheets/cookiealert.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+    <meta name="theme-color" content="#fafafa">
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<nav class="navbar navbar-expand-lg p-0">
+    <div class="container">
+        <div class="navbar-header navbar-light">
+            <a class="navbar-brand pr-5 mr-5" href="/">iPlanet</a>
+        </div>
+        <nav class="navbar-dark bg-ownDark">
+            <button class="navbar-toggler" id="hamButton" type="button" data-toggle="collapse" data-target="#navSmall" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+
+        <div class="collapse navbar-collapse js-navbar-collapse pl-5">
+            <ul class="navbar-nav pl-5 ml-5">
+                <li class="dropdown mega-dropdown d-flex align-items-center px-3">
+                    <a href="#" class="px-2 products-itemAn" data-toggle="dropdown">iPhone</a>
+                    <ul class="dropdown-menu mega-dropdown-menu w-50 rounded-bottom">
+                        <div class="row justify-content-center px-3">
+                            <div class="col-lg-3 col-md-3 col-sm-3"><a href="/shop/iPhone/"><img class="img-fluid center" src="/images/icons/iphone/iphone-xs.png"><p class="text-center">iPhone XS</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3"><a href="/shop/iPhone/"><img class="img-fluid center" src="/images/icons/iphone/iphone-xs-max.png"><p class="text-center">iPhone XS Max</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3"><a href="/shop/iPhone/"><img class="img-fluid center" src="/images/icons/iphone/iphone-xr.png"><p class="text-center">iPhone XR</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3"><a href="/shop/iPhone/"><img class="img-fluid center" src="/images/icons/iphone/iphone-x.png"><p class="text-center">iPhone X</p></a></div>
+                            <div class="col-lg-3 col-md-3 col-sm-3"><a href="/shop/iPhone/"><img class="img-fluid center" src="/images/icons/iphone/iphone-8.png"><p class="text-center">iPhone 8</p></a></div>
+                            <div class="col-lg-3 col-md-3 col-sm-3"><a href="/shop/iPhone/"><img class="img-fluid center" src="/images/icons/iphone/iphone-8-plus.png"><p class="text-center">iPhone 8 Plus</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3"><a href="/shop/iPhone/"><img class="img-fluid center" src="/images/icons/iphone/iphone-7.png"><p class="text-center">iPhone 7</p></a></div>
+                            <div class="col-lg-3 col-md-3 col-sm-3"><a href="/shop/iPhone/"><img class="img-fluid center" src="/images/icons/iphone/iphone-7-plus.png"><p class="text-center">iPhone 7 Plus</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3"><a href="/shop/iPhone/"><img class="img-fluid center" src="/images/icons/iphone/iphone-6s.png"><p class="text-center">iPhone 6s</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3"><a href="/shop/iPhone/"><img class="img-fluid center" src="/images/icons/iphone/iphone-6s-plus.png"><p class="text-center">iPhone 6s Plus</p></a>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li class="dropdown mega-dropdown d-flex align-items-center px-3">
+                    <a href="#" class="px-2 products-itemAn" data-toggle="dropdown">iPad</a>
+                    <ul class="dropdown-menu mega-dropdown-menu w-50 rounded-bottom">
+                        <div class="row justify-content-center px-3">
+                            <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/iPad/"><img class="img-fluid w-100" src="/images/icons/ipad/iPad_Pro_Amazon.jpg"><p class="text-center">iPad Pro</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/iPad/"><img class="img-fluid w-100" src="/images/icons/ipad/iPad_air_(amazon)_new.jpg"><p class="text-center">iPad Air</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/iPad/"><img class="img-fluid w-100" src="/images/icons/ipad/iPad_(amazon).jpg"><p class="text-center">iPad</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/iPad/"><img class="img-fluid w-100" src="/images/icons/ipad/new_iPad_mini_amazon.jpg"><p class="text-center">iPad Mini</p></a></div>
+                        </div>
+                    </ul>
+                </li>
+                <li class="dropdown mega-dropdown d-flex align-items-center px-3">
+                    <a href="#" class="px-2 products-itemAn" data-toggle="dropdown">Mac</a>
+                    <ul class="dropdown-menu mega-dropdown-menu w-50 rounded-bottom">
+                        <div class="row justify-content-center px-3">
+                            <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/Mac/"><img class="img-fluid w-100" src="/images/icons/mac/macbook_(nowosccc).jpg"><p class="text-center">MacBook</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/Mac/"><img class="img-fluid w-100" src="/images/icons/mac/macbook_air_(nowosc_amazoonn).jpg"><p class="text-center">Macbook Air</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/Mac/"><img class="img-fluid w-100" src="/images/icons/mac/MacBook_Pro_2018_(amaozn).jpg"><p class="text-center">Macbook Pro</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/Mac/"><img class="img-fluid w-100" src="/images/icons/mac/imac_retinaaaa_amazon_kopiaa.jpg"><p class="text-center">iMac</p></a></div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/Mac/"><img class="img-fluid w-100" src="/images/icons/mac/imac_pro_2017_amazon.jpg"><p class="text-center">iMac Pro</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/Mac/"><img class="img-fluid w-100" src="/images/icons/mac/mac_mini_amazonnn.jpg"><p class="text-center">Mac Mini</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/Mac/"><img class="img-fluid w-100" src="/images/icons/mac/MacBook_Pro_2018_(amaozn).jpg"><p class="text-center">Mac Pro</p></a>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li class="dropdown mega-dropdown d-flex align-items-center px-3">
+                    <a href="#" class="px-2 products-itemAn" data-toggle="dropdown">Watch</a>
+                            <ul class="dropdown-menu mega-dropdown-menu w-50 rounded-bottom">
+                                <div class="row justify-content-center px-3">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/Watch/"><img class="img-fluid w-100" src="/images/icons/watch/series4_v3jt-w5.jpg"><p class="text-center">Watch Seria 4</p></a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/Watch/"><img class="img-fluid w-100" src="/images/icons/watch/42_n36m-kk.jpg"><p class="text-center">Watch Seria 3</p></a>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/Watch/"><img class="img-fluid w-100" src="/images/icons/watch/nike_axbu-xb.jpg"><p class="text-center">Watch Nike+</p></a>
+                                    </div>
+                                </div>
+                            </ul>
+                </li>
+                <li class="dropdown mega-dropdown d-flex align-items-center px-3">
+                    <a href="#" class="px-2 products-itemAn" data-toggle="dropdown">Akcesoria</a>
+                    <ul class="dropdown-menu mega-dropdown-menu w-50 rounded-bottom">
+                        <div class="row justify-content-center px-3">
+                            <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/Akcesoria/"><img class="img-fluid w-100" src="/images/icons/akcesoria/Akcesoria-mac_xxw2-ej.jpg"><p class="text-center">Akcesoria Mac</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/Akcesoria/"><img class="img-fluid w-100" src="/images/icons/akcesoria/Akcesoria_iPhone_4_888.jpg"><p class="text-center">Akcesoria iPhone</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/Akcesoria/"><img class="img-fluid w-100" src="/images/icons/akcesoria/Akcesoria_iPad_4_2.jpg"><p class="text-center">Akcesoria iPad</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/Akcesoria/"><img class="img-fluid w-100" src="/images/icons/akcesoria/Pokrowce_plecaki_torby_4_2.jpg"><p class="text-center">Pokrowce</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/Akcesoria/"><img class="img-fluid w-100" src="/images/icons/akcesoria/Glosniki.jpg"><p class="text-center">Głośniki</p></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 mx-auto"><a href="/shop/Akcesoria/"><img class="img-fluid w-100" src="/images/icons/akcesoria/Sluchawki.jpg"><p class="text-center">Słuchawki</p></a>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li class="d-flex align-items-center px-3">
+                    <a href="/shop/Apple%20TV/Apple%20TV" class="px-2 products-itemAn">AppleTV</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto mr-5 align-items-center text-white">
+                <div class="profile">
+                    <a class="nav-link products-itemAn" data-toggle="collapse" href="#profile" role="button" aria-expanded="false"
+                       aria-controls="multiCollapseExample1"><i class="fas fa-users"></i></a>
+
+                    <div class="collapse multi-collapse position-absolute mt-0 border-blue rounded bg-white"
+                         id="profile">
+                        <ul class="list-group list-group-flush">
+                            <% if(currentUser){ %>
+                                <% if(currentUser.isAdmin){ %>
+                                    <li class="list-group-item p-0"><a class="nav-link text-black"
+                                                                       href="/shop/admin"
+                                                                       class="nav link">
+                                            <small><i class="fas fa-shopping-basket px-1"></i>Zarządzanie sklepem
+                                            </small>
+                                        </a></li>
+                                <% } %>
+                                <li class="list-group-item p-0"><a class="nav-link text-black" href="/logout">
+                                        <small><i class="fas fa-user-minus px-1"></i>Wyloguj się</small>
+                                    </a></li>
+                            <% }else{ %>
+                                <li class="list-group-item p-0"><a class="nav-link text-black" href="/login">
+                                        <small><i class="fas fa-user px-1"></i> Zaloguj się</small>
+                                    </a></li>
+                                <li class="list-group-item p-0"><a class="nav-link text-black" href="/register">
+                                        <small><i class="fas fa-user-plus px-1"></i>Zarejestruj się</small>
+                                    </a></li>
+                            <% } %>
+                        </ul>
+                    </div>
+                </div>
+                <div class="search d-flex align-items-center">
+                    <a class="nav-link" data-toggle="toggle" data-target="#search"><i
+                                class="fas fa-search products-itemAn"></i></a>
+                    <div class="collapse rounded bg-white"
+                         id="search">
+                        <form class='form-inline' method='post'
+                              action='/searchClient'>
+                            <div class='input-group w-100'>
+                                <input id='inputClient' onkeyup='showClient(this.value)'
+                                       class='form-control bg-transparent border-0'
+                                       placeholder='Szukaj'
+                                       name='search' autocomplete='off'>
+
+                                <div id='searchItem' class='position-absolute bg-white w-100'></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="shopping">
+                    <a class="nav-link products-itemAn" data-toggle="collapse" href="#shopping" role="button" aria-expanded="false">
+                        <i class="fas fa-shopping-cart"></i><span class="badge badge-pill badge-light ml-2"><%=session.cart.totalQty%></span></a>
+                    <div class="collapse multi-collapse position-absolute mt-0 border-blue rounded bg-white"
+                         id="shopping">
+                        <ul class="list-group list-group-flush">
+                            <%cookie.forEach(shopping =>{%>
+                            <% if(cookie.totalQty >0){ %>
+                                <li class="list-group-item p-0"><a class="nav-link text-black" href="/login">
+                                            <small><%=shopping.model%></small><span class="badge badge-pill badge-light ml-2"><%=shopping.qty%></span>
+                                    </a></li>
+
+
+                            <% }else{ %>
+                                <%if(shopping.qty > 0){%>
+                                <li class="list-group-item p-0"><a class="nav-link text-black" href="/login">
+                                        <div class="row">
+                                        <div class="col-lg-8 border-right">
+                                            <small><%=shopping.item.shortDescription%><span class="badge badge-pill badge-dark ml-2"><%=shopping.qty%></span></small>
+                                        </div>
+                                        <div class="col-lg-4 px-1">
+                                            <p class="text-center align-middle"><%=shopping.price%> zł</p>
+                                        </div>
+                                        </div>
+                                    </a></li>
+                                <%}%>
+                            <% } %>
+                            <% })%>
+                                <div class="col-lg-12 text-black">
+                                   <p class="text-center">Razem <%=total.totalPrice%> zł</p>
+                                    <a href="/cart" class="btn btn-info w-100">Przejdź do płatności</a>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="collapse p-0 w-100" id="navSmall">
+        <div class="bg-ownDark-hamburger">
+            <ul class="mr-auto list-group-flush w-100 hamburger">
+                <li class="list-group-item w-border">
+                    <a class="nav-link text-white" href="#">iPhone</a>
+                </li>
+                <li class="list-group-item w-border">
+                    <a class="nav-link text-white" href="#">iPad</a>
+                </li>
+                <li class="list-group-item w-border">
+                    <a class="nav-link text-white" href="#">Mac</a>
+                </li>
+                <li class="list-group-item w-border">
+                    <a class="nav-link text-white" href="#">Watch</a>
+                </li>
+                <li class="list-group-item w-border">
+                    <a class="nav-link text-white" href="#">Akcesoria</a>
+                </li>
+                <li class="list-group-item w-border">
+                    <a class="nav-link text-white" href="#">AppleTv</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+

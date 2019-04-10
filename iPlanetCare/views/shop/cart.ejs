@@ -1,0 +1,39 @@
+<% include ../partials/headersite%>
+
+<section class="cart my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="row">
+            <%cookie.forEach(cartE=>{%>
+                    <%if(cartE.qty > 0){%>
+                    <div class="col-lg-2 border-bottom px-0 max-height-small d-flex justify-content-center">
+                        <img class="img-fluid" src="<%=cartE.item.imageHR%>">
+                    </div>
+                    <div class="col-lg-10 px-0 border-bottom">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item w-50">Cena za sztukę <%=cartE.item.price%> zł</li>
+                            <div class="row">
+                                <div class="col-lg-8"><li class="list-group-item">Cena <%=cartE.price%> zł</li></div>
+                                <div class="col-lg-4"><li class="list-group-item"><a id="remove" href='<%=cartE.item._id%>'><i class="fas fa-minus laguna-color"></i></a> Ilość <%=cartE.qty%> <a href='/add-to-cart/<%=cartE.item._id%>'><i class="fas fa-plus laguna-color"></i></a></li></div>
+                            </div>
+                        </ul>
+                    </div>
+                    <% }%>
+                    <% })%>
+                    <div class="col-lg-12 px-0">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item ml-auto laguna-color">Razem <%=total.totalPrice%> zł</li>
+                            <li class="btn btn-info w-50 ml-auto">Zapłać</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<% include ../partials/footersite%>

@@ -1,0 +1,43 @@
+<% include ../partials/headersite%>
+
+
+<section class="shop">
+    <div class="jumbotron mt-5 pt-5 d-flex  justify-content-center align-items-center">
+        <h1 class="text-center ">Produkty</h1>
+    </div>
+    <div class="container">
+        <a href="/shop/addCategory">Dodaj Kategorie</a>
+        <div class="row">
+            <div class="col-lg-2">
+                <h3><b>Promocja</b></h3>
+             <div class="filters">
+
+
+             </div>
+            </div>
+            <div class="col-lg-10">
+                <div class="row">
+                    <%productItems.forEach(productE=>{%>
+                        <div class='col-lg-4 mb-3'>
+                            <div class="card"><a href="/shop/<%=productE.category%>/">
+                                <img src="<%=productE.imageTH%>" class="card-img-top" alt="..." height="100px">
+                                <div class="card-body" style="min-height:0">
+                                    <h5 class="text-center" style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;" class="card-title"><small>
+                                            <%=productE.category%>
+                                        </small></h5>
+                                </div>
+                                <form class="delete inline" action="/shop/<%= productE._id%>?_method=DELETE" method="post">
+                                    <button  class="btn btn-danger btn-xs">Usuń Kategorie</button>
+                                </form>
+                                </a>
+                            </div>
+                        </div>
+                             <%})%>
+            </div>
+        </div>
+    </div>
+
+
+
+</section>
+<% include ../partials/footersite%>

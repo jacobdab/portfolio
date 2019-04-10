@@ -1,0 +1,39 @@
+<% include ../partials/headersite %>
+
+
+<section class="shop">
+
+    <div id="header" class="scene-border overflow-hidden">
+        <div class="layer pt-5" data-depth="0.2"><img src="/images/kisspng-apple.png"></div>
+        <% product.forEach((productE)=>{ %>
+        <h3 class="centerAbsolute"
+            data-depth="0.0"><%= productE.name %></h3>
+    </div>
+    <div class="product-info container mt-5">
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="img-fluid" src="<%= productE.imageHR %>">
+            </div>
+
+            <div class="col-lg-8">
+                <div class="bg-transparent">
+                    <div class="list-group">
+                        <button type="button" class="list-group-item list-group-item-action">
+                            <h5><b><%= productE.model %></b></h5>
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action"><p
+                                    class="lead"><%= productE.color %></p></button>
+                        <button type="button" class="list-group-item list-group-item-action"><p
+                                    class="lead"><%= productE.price %> zł</p></button>
+                        <button type="button" class="list-group-item list-group-item-action"><p
+                                    class=""><%= productE.description %> </p></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <% }) %>
+</section>
+<% include ../partials/footersite %>

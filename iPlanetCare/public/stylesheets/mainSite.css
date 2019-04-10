@@ -1,0 +1,864 @@
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.img-menu {
+    width: 40px;
+    height: 40px;
+}
+
+.spinner-border {
+    z-index: 5;
+}
+
+.navbar {
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 1);
+    border-bottom: 1px inset rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 16px 100px -15px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 16px 100px -15px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 16px 100px -15px rgba(0, 0, 0, 0.75);
+}
+
+.border-blue {
+    border: 1px solid #00A6DF;
+}
+
+.list-group-item {
+    background-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-brand {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #00A6DF !important;
+}
+
+.nav-itemEffect {
+    border-bottom: 2px solid transparent;
+    transition: 500ms;
+}
+
+/*.nav-item:hover{
+  border-bottom: 2px solid navajowhite;
+}*/
+.nav-itemEffect:hover:after {
+    width: 100%;
+/ / transition: width .3 s;
+}
+
+.nav-itemEffect:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #474554;
+    transition: width .3s;
+}
+
+/*.curmudgeon::before {
+  border-bottom: 3px solid #FFF;
+  border-left: 0;
+  -webkit-transform-origin: 0% 100%;
+}
+
+.curmudgeon::after {
+  border-top: 0;
+  border-right: 0;
+  -webkit-transform-origin: 50% 50%;
+}
+}*/
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #00A6DF;
+}
+
+.sizer {
+    font-size: 50px;
+    color: #00A6DF;
+}
+
+.price {
+    font-size: 40px;
+    color: #00A6DF;
+}
+
+.info {
+    color: #FFFFFF;
+}
+
+.nav-item:hover a {
+    color: #858585;
+}
+
+.btn-gold {
+    background-color: #f9a04a;
+}
+
+.btn-gold:hover {
+    background-color: #f7c28f;
+}
+
+.btn-goldSubmit {
+    background-color: #f9a04a;
+}
+
+.btn-goldSubmit:hover {
+    background-color: #f7c28f;
+}
+
+.btn-group-xs > .btn, .btn-xs {
+    padding: .25rem .4rem;
+    font-size: .875rem;
+    line-height: 1;
+    border-radius: .2rem;
+}
+
+.tel {
+    color: #00A6DF;
+}
+
+a.tel:hover {
+    color: #E6F4F1;
+}
+
+.heightThat {
+    height: 200px;
+}
+
+.input-group-text {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: transparent;
+}
+
+.effect:hover {
+    background-color: #474554;
+    transform: scale(1.2);
+    box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+    z-index: 2;
+}
+
+.effect:hover > a > .fab {
+    transform: scale(2);
+    color: #E6F4F1;
+}
+
+.effect:hover ~ .effect {
+    background-color: #E6F4F1 !important;
+}
+
+.row:hover effect:not(:hover) {
+    color: red;
+}
+
+.hide {
+    display: none !important;
+}
+
+.fontAwe {
+    font-size: 43px;
+    line-height: 0.9;
+    color: #00A6DF;
+}
+
+.fontSmall {
+    font-size: 12px;
+    white-space: normal;
+}
+
+.modalAdd {
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    right: 0;
+}
+
+.visuallyhidden {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.d-flexAnim {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.loader {
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.data::placeholder {
+    color: #999999;
+}
+
+.shadower {
+    -webkit-box-shadow: 13px 13px 39px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 13px 13px 39px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 13px 13px 39px -6px rgba(0, 0, 0, 0.75);
+}
+
+.carousel-item {
+    height: 600px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.posts {
+    width: 100%;
+    height: 100%;
+    margin-top: calc(800px - 106px);
+}
+
+.nav {
+    width: 100%;
+    z-index: 2;
+}
+
+.dropdown-menu.show {
+    display: flex;
+}
+
+.dropdown {
+    position: initial;
+}
+
+.productsMenu {
+    width: 100%;
+    margin: 0;
+    top: 57px;
+    background-color: transparent;
+    border: 0px;
+    padding: 0;
+    text-align: center;
+    display: flex;
+}
+
+.pattern {
+    content: "";
+    height: 100%;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAOElEQVQoU2NkIAIw/lzg9Z89YRsjLrUgebAkLoUwcZwmIJuMogimE91kDJOwWU2adegmIPOJ8h0AcoMq7JYqtx0AAAAASUVORK5CYII=);
+}
+
+.bg-ownDark {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.menu-hover {
+    background-color: #FFF;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    transition: 500ms;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+}
+
+.center {
+    margin: 0 auto;
+    display: block;
+}
+.centerAbsolute{
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+.row {
+    width: 100%;
+}
+
+.products-item {
+    white-space: nowrap;
+}
+
+.products-itemAn:hover {
+    text-decoration: none;
+    color: #00A6DF;
+}
+
+.products-itemAn {
+    color: #FFF;
+}
+
+.card:hover {
+    background-color: rgba(153, 153, 153, 0.1);
+}
+
+.card-text {
+    white-space: normal;
+}
+
+#collapseiPhone {
+    top: 57px;
+    z-index: 3;
+}
+
+#collapseiPad {
+    top: 57px;
+    z-index: 3;
+}
+
+#collapseiMac {
+    top: 57px;
+    z-index: 3;
+}
+
+#collapseWatch {
+    top: 57px;
+    z-index: 3;
+}
+
+#collapseTV {
+    top: 57px;
+    z-index: 3;
+}
+
+#collapseAccessories {
+    top: 57px;
+    z-index: 3;
+}
+
+.products-item span {
+    padding-left: 5px;
+}
+
+.card-body {
+    min-height: 220px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 40px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.owl-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.am-next {
+    color: #00A9ED;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: 40px;
+}
+
+.am-prev {
+    color: #00A9ED;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: 40px;
+}
+
+.dropdown-image {
+    display: block;
+}
+
+#header {
+    background: #d4d4d4;
+    min-height: 300px;
+}
+
+.layer img {
+    width: 200px;
+    height: 200px;
+}
+
+.card-body {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.owl-carousel .owl-item img {
+    height: 300px;
+}
+
+.card-img-top {
+    min-height: 200px;
+}
+
+#search {
+    -webkit-transition: width 1500ms ease;
+    -moz-transition: width 1500ms ease;
+    -o-transition: width 1500ms ease;
+    transition: width 1500ms ease;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    line-height: 30px;
+    width: 0px;
+}
+
+#search.in {
+    width: 220px;
+}
+
+#searchItem {
+    top: 36px;
+    z-index: 5000;
+}
+
+.search-query {
+    color: #000;
+    text-decoration: none;
+}
+
+.search-query:hover {
+    text-decoration: none;
+    color: #00A9ED;
+}
+
+.laguna-color {
+    color: #00A9ED;
+}
+
+.filter {
+    display: block;
+    padding: 10px;
+}
+
+#inputClient:focus {
+    border: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+
+.mega-dropdown {
+    position: static !important;
+}
+
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    left: 25%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.mega-dropdown-menu > li > ul {
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu {
+    margin: 0;
+}
+
+.mega-dropdown-menu > li > ul > li {
+    list-style: none;
+}
+
+.mega-dropdown-menu > li > ul > li > a {
+    display: block;
+    color: #222;
+    padding: 3px 5px;
+}
+
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+    text-decoration: none;
+}
+
+.mega-dropdown-menu .dropdown-header {
+    font-size: 18px;
+    color: #ff3546;
+    padding: 5px 60px 5px 5px;
+    line-height: 30px;
+}
+
+.navbar-nav {
+    height: 88.67px;
+}
+.shopping {
+    z-index: 5;
+}
+
+.max-height-small {
+    max-height: 100px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    max-height: 100%;
+}
+.w-border{
+    border-bottom:1px solid rgba(255,255,255,0.15);
+}
+.btn-ownColor{
+    background-color: #00A6DF;
+}
+
+
+#navSmall{
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 55px;
+}
+.nomove{
+    overflow: hidden;
+    width: 100%;
+}
+@media (max-height: 700px){
+    .hamburger{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 1);
+        top: 0;
+        position: absolute;
+        overflow-y: scroll;
+    }
+    .bg-ownDark-hamburger{
+        height: 300px;
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 1200px
+    }
+
+    .modal-small {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .heightThat {
+        height: 100px
+    }
+    .navbar-collapse {
+        margin: 0 auto;
+    }
+    .navbar-nav {
+        height: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navbar-collapse {
+        padding-left: 0 !important;
+    }
+
+    .navbar-nav {
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .mega-dropdown {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    #search.in {
+        max-width: 140px !important;
+    }
+
+    .navbar-brand {
+        padding-right: 1rem !important;
+        margin-right: 1rem !important;
+    }
+}
+
+@media (min-width: 1300px) {
+    .container {
+        max-width: 1350px;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Hide visually and from screen readers
+ */
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+    /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print, (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        /* Black prints faster */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/*# sourceMappingURL=service.css.map */

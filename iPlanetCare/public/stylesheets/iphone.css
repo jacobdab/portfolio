@@ -1,0 +1,31 @@
+body {
+  background-color: #000000;
+}
+
+.navbar {
+  z-index: 2;
+  background-color: white;
+  border-bottom: 1px inset rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 16px 100px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 16px 100px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 16px 100px -15px rgba(0, 0, 0, 0.75);
+}
+
+.row img {
+  max-height: 550px;
+  width: 100%;
+}
+
+.white {
+  color: white;
+}
+
+.added {
+  margin-bottom: -40px;
+}
+
+.dropdown-item:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=iphone.css.map */

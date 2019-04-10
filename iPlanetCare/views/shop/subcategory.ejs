@@ -1,0 +1,52 @@
+<% include ../partials/headersite%>
+
+<section class="subCategory mt-5 pt-5">
+
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/shop">iPlanet Sklep</a></li>
+                <%categories.forEach(categoriesBreadCrumb=>{%>
+                <li class="breadcrumb-item active" aria-current="page">
+                    <%= categoriesBreadCrumb.category%>
+                    <%})%></li>
+            </ol>
+        </nav>
+        <a href="/shop/<%categories.forEach(categoriesE=>{%><%=categoriesE.category%><%})%>/addSubCategory">Dodaj Podkategorie</a>
+        <div class="row">
+            <div class="col-lg-2">
+                <h3><b>Promocja</b></h3>
+                <div class="filters">
+
+
+                </div>
+            </div>
+    <div class="col-lg-10">
+        <div class="row">
+        <%categories.forEach((categoriesE,i)=>{%>
+            <%categoriesE.subCategory.forEach((subCategoryE,i)=>{%>
+            <%=console.log(subCategoryE)%>
+            <div class='col-lg-4 mb-3'>
+                <div class="card"><a href="/shop/<%=categoriesE.category%>/<%=subCategoryE.subCategory%>/">
+                        <img src="<%=subCategoryE.imageTH%>" class="card-img-top" alt="..." height="100px">
+                        <div class="card-body" style="min-height:0">
+                            <h5 class="text-center" style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;" class="card-title"><small>
+                                    <%=subCategoryE.subCategory%>
+                                </small></h5>
+                        </div>
+                        <form class="delete inline" action="/shop/<%=subCategoryE._id%>?_method=DELETE" method="post">
+                            <button  class="btn btn-danger btn-xs">Usuń Kategorie</button>
+                        </form>
+                    </a>
+                </div>
+            </div>
+            <% })%>
+        <%})%>
+    </div>
+    </div>
+        </div>
+</section>
+
+
+
+<% include ../partials/footersite%>
