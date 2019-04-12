@@ -6,7 +6,6 @@ User = require('../schema/Users'),
     passportLocalMongoose = require('passport-local-mongoose'),
     async = require('async'),
     Cart = require('../modules/cart'),
-    nodemailer = require('nodemailer'),
     crypto = require('crypto');
 
 /* GET home page. */
