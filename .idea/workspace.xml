@@ -113,6 +113,8 @@
       <change beforePath="$PROJECT_DIR$/iPlanetCare/views/shop/addProduct.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/views/shop/addProduct.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iPlanetCare/views/shop/products.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/views/shop/products.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iPlanetCare/views/shop/showProduct.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/views/shop/showProduct.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -307,17 +309,17 @@
       <updated>1554836938506</updated>
       <workItem from="1554836939709" duration="1808000" />
       <workItem from="1554913071277" duration="6956000" />
-      <workItem from="1555086364766" duration="8771000" />
+      <workItem from="1555086364766" duration="8870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17535000" />
+    <option name="totallyTimeSpent" value="17634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30047506" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30047506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -331,7 +333,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011876" side_tool="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49881235" visible="true" weight="0.32254046" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49881235" visible="true" weight="0.32254046" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
