@@ -15,7 +15,7 @@ router.get('/', (req, res, next) => {
         if (err) {
             console.log(err);
         } else {
-            let cookie = new Cart(req.session.cart);
+            let cookie = new Cart(req.session.cart ? req.session.cart :{items:{}});
             console.log(cookie);
                     Shop.find().sort('-created').limit(10).exec((err, product) => {
                         if (err) {
@@ -94,18 +94,20 @@ router.get('/search', (req, res) => {
 
 router.get('/add-to-cart/:id',(req,res)=>{
   let cart = new Cart(req.session.cart ? req.session.cart : {});
-  Shop.findById(req.params.id,(err,product)=>{
-      if(err){
+  Shop.findById(req.params.id, async (err, product) => {
+      if (err) {
           console.log(err);
-      }else{
+      } else {
           cart.add(product, product.id);
           req.session.cart = cart;
-          res.redirect('back');
+          req.session.save((err)=> {
+              res.redirect('back');
+          })
       }
   })
 });
 
-router.put('/remove-from-cart/:id',(req,res)=>{
+router.get('/remove-from-cart/:id',(req,res)=>{
     let cart = new Cart(req.session.cart);
     Shop.findById(req.params.id,(err,product)=> {
         if (err) {
@@ -113,7 +115,9 @@ router.put('/remove-from-cart/:id',(req,res)=>{
         } else {
             cart.remove(product, product.id);
             req.session.cart = cart;
-            res.redirect('back');
+            req.session.save((err)=> {
+                res.redirect('back');
+            })
         }
     });
 });

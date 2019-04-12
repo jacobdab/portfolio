@@ -145,7 +145,7 @@
                             <% if(currentUser){ %>
                                 <% if(currentUser.isAdmin){ %>
                                     <a class='text-danger' href="/shop/<%= productE._id %>/edit">Edytuj</a>
-                                    <a class='btn btn-ownColor text-white' role="button" href="/shop/<%= productE._id %>/edit">Dodaj
+                                    <a class='btn btn-ownColor text-white' role="button" href="/add-to-cart/<%= productE._id %>/">Dodaj
                                         do koszyka</a>
                             <% }}else{ %>
                                 <a class='btn btn-ownColor text-white' role="button" href="/add-to-cart/<%= productE._id %>/">Dodaj do

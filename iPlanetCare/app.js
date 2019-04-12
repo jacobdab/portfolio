@@ -12,7 +12,6 @@ const express = require('express'),
     methodOverride = require('method-override'),
     expressSanitazer = require('express-sanitizer'),
     moment = require('moment'),
-    proxy = require('http-proxy-middleware'),
     flash = require('connect-flash'),
     User = require('./schema/Users'),
     CategoryMenu = require('./schema/CategoryMenu'),
@@ -22,18 +21,7 @@ const express = require('express'),
     middlewareObject = require('./middleware/index');
 Devices = require('./schema/Devices');
 const blocked = require('blocked');
-const {routes} = require('./config.json');
 
-for (route of routes) {
-    app.use(route.route,
-        proxy({
-            target: route.address,
-            pathRewrite: (path, req) => {
-                return path.split('/').slice(2).join('/'); // Could use replace, but take care of the leading '/'
-            }
-        })
-    );
-}
 
 setInterval(function () {
     Array(10000000).join('a')
@@ -97,9 +85,9 @@ app.use(function (req, res, next) {
     res.locals.session = req.session;
     res.locals.success = req.flash('success');
     res.locals.error = req.flash('error');
+    res.locals.moment = require('moment');
     next();
 });
-app.locals.moment = require('moment');
 var notAuthenticated = {
     flashType: 'error',
     message: 'The entered credentials are incorrect',
@@ -110,17 +98,12 @@ app.use('/', authRoutes);
 app.use('/shop', shopRoutes);
 app.use('/customers', middlewareObject.checkPermission, customersRoutes);
 
-// catch 404 and forward to error handler
-/*app.use(function(req, res, next) {
-  next(createError(404));
-});*/
 
 // error handler
 app.use(function (err, req, res, next) {
     // set locals, only providing error in development
     res.locals.message = err.message;
     res.locals.error = req.app.get('env') === 'development' ? err : {};
-
     // render the error page
     res.status(err.status || 500);
     res.render('error');

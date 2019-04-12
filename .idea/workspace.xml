@@ -1,7 +1,264 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="156c2063-e3dd-4f8a-b252-6b2c4a802b91" name="Default Changelist" comment="" />
+    <list default="true" id="156c2063-e3dd-4f8a-b252-6b2c4a802b91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/modules/calculateProfit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/modules/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/schema/DeviceParams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/schema/MonthFinances.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/blog/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/blog/img/zdj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/blog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/img/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/img/Logojd2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/img/Logojd2roz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/img/bgnew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/img/hr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/img/logotransparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/img/portfolio.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/img/template.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/img/zdj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/message_send.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/msg_send.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/msg_send_project.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/project.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/dist/vendors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPlanetCare/views/shop/cart.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/accessories.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/apple-tv-512-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/apple-tv-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/apple_tv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/header2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/accessories.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/akcesoria/Akcesoria-mac_xxw2-ej.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/akcesoria/Akcesoria_iPad_4_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/akcesoria/Akcesoria_iPhone_4_888.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/akcesoria/Glosniki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/akcesoria/Pokrowce_plecaki_torby_4_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/akcesoria/Sluchawki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/apple-tv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/imac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/ipad/iPad_(amazon).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/ipad/iPad_Pro_Amazon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/ipad/iPad_air_(amazon)_new.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/ipad/new_iPad_mini_amazon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone-x-filled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iPhone-6s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iPhone-6s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iPhone-8-plus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iPhone-8-plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iPhone-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iPhone-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iPhone-X.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iPhone-X.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iphone-6s-plus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iphone-6s-plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iphone-7-plus.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iphone-7-plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iphone-7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iphone-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iphone-xr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iphone-xr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iphone-xs-max.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iphone-xs-max.jpg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iphone-xs-max.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iphone-xs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/iphone/iphone-xs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/mac/MacBook_Pro_2018_(amaozn).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/mac/Mac_mini_(amazon).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/mac/imac_pro_2017_amazon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/mac/imac_retinaaaa_amazon_kopiaa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/mac/mac_mini_amazonnn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/mac/macbook_(nowosccc).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/mac/macbook_air_(nowosc_amazoonn).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/watch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/watch/42_n36m-kk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/watch/nike_axbu-xb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/watch/series4_v3jt-w5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/imac-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/imac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/imacico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/ipad-512-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/ipad-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/iphone-x-filled-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/iphone-x-filled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/iphone-xs-max-gold-select-2018.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/iphone-xs-max.jpg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/iphone3g.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/iphone4s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/iphone5s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/iphone6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/iphone7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/iphone8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/iphone_Xs_64gb_gold_sku_header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/iphonex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/iphonexr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/iphonexs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/iphonexs1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/iphonexs2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/iplanet-logo-2-ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/kisspng-apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/kisspng-apple2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/macbookair.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/macbookpro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1421757381940-5d269570b21c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1426024120108-99cc76989c71.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1434494493852-d1871af5c0a6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1434494878577-86c23bcb06b9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1463620695885-8a91d87c53d0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1463620910506-d0458143143e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1468436139062-f60a71c5c892.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1468495244123-6c6c332eeece.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1487284122274-e864e9dec2bf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1487446929682-f62f73984006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1489844097929-c8d5b91c456e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1491933382434-500287f9b54b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1494173853739-c21f58b16055.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1494698853255-d0fa521abc6c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1495564103921-67412af57da3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1497377825569-02ad2f9edb81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1499426699556-bd326d8e3b83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1499951360447-b19be8fe80f5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1504274066651-8d31a536b11a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1504610926078-a1611febcad3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1509227035009-4bef0b738dd3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1511072303409-7e8ddb93a0a5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1511227682637-ddb98c43c42c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1511707171634-5f897ff02aa9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1512499312141-b239712c0a3c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1512499617640-c74ae3a79d37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1515704089429-fd06e6668458.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1516163109866-e9d98630a0a6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1516905041604-7935af78f572.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1517059224940-d4af9eec41b7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1517502474097-f9b30659dadb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1517517705172-589d52afcc0a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1519332978332-21b7d621d05e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1522040806052-b0aa2b039f00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1523893410599-b935fbd87d73.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1534802046520-4f27db7f3ae5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1537634605644-50543b30cecb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1537634676352-b656a9833b2e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/photo-1541591708423-9001fe827349.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pobrane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/repair.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/type-away-numero-dos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/type.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/typo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/watch-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/watch-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/xsmax.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/javascripts/skygate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/cookiealert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/mainSite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/mainSite.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/mainSite.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/skygate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/strv.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STRV/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/STRV/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STRV/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/STRV/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STRV/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/STRV/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STRV/public/stylesheets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/STRV/public/stylesheets/strv.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STRV/views/partials/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/STRV/views/partials/header.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyGate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SkyGate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyGate/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/SkyGate/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyGate/public/javascripts/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyGate/public/stylesheets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyGate/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/SkyGate/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyGate/views/partials/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/SkyGate/views/partials/footer.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyGate/views/partials/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/SkyGate/views/partials/header.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/modules/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/modules/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/modules/modelsArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/modules/modelsArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/modules/progressBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/modules/progressBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iPhone-6s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iPhone-6s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iPhone-8-plus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iPhone-8-plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iPhone-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iPhone-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iPhone-X.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iPhone-X.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iphone-6s-plus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iphone-6s-plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iphone-7-plus.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iphone-7-plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iphone-7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iphone-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iphone-xr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iphone-xr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iphone-xs-max.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iphone-xs-max.jpg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iphone-xs-max.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iphone-xs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/icons/iphone-xs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/ipadpro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/iphone-xsmax.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/iphonexs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/public/images/iphonexs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/iphonexs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/photo-1485813727108-9b009dfab116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/images/photo-1541807084-5c52b6b3adef.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/javascripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/public/javascripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/javascripts/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/public/javascripts/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/stylesheets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/stylesheets/mainSite.css" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/public/stylesheets/mainSite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/public/stylesheets/mainSite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/public/stylesheets/mainSite.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/routes/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/routes/customers.js" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/routes/customers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/routes/service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/routes/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/schema/Devices.js" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/schema/Devices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/schema/Parameters.js" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/schema/Parameters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/schema/SubCategoryMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/schema/SubCategoryMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/auth/forgot.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/views/auth/forgot.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/auth/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/views/auth/login.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/auth/profile.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/auth/register.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/views/auth/register.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/auth/settings.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/clients/edit.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/views/clients/edit.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/clients/show.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/views/clients/show.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/devices/addClient.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/devices/addDevice.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/devices/desc.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/devices/index.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/index.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/landing.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/views/landing.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/partials/addProduct.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/views/partials/addProduct.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/partials/footer.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/partials/footersite.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/views/partials/footersite.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/partials/header.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/partials/headersite.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/views/partials/headersite.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/partials/modalAddParam.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/views/partials/modalAddParam.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/shop/addProduct.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/views/shop/addProduct.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/shop/cart.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/views/shop/cart.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/shop/products.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/views/shop/products.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPlanetCare/views/shop/showProduct.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/iPlanetCare/views/shop/showProduct.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/template.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/template.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,46 +271,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/app.js">
+        <entry file="file://$PROJECT_DIR$/SkyGate/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="78" column="21" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="21" />
+            <state relative-caret-position="568">
+              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/routes/service.js">
+        <entry file="file://$PROJECT_DIR$/SkyGate/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="492" column="53" selection-start-line="492" selection-start-column="47" selection-end-line="492" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/views/partials/header.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="103" column="65" selection-start-line="103" selection-start-column="65" selection-end-line="103" selection-end-column="65" />
-            </state>
+            <state relative-caret-position="-197" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/service.js">
+        <entry file="file://$PROJECT_DIR$/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="166" column="22" selection-start-line="166" selection-start-column="22" selection-end-line="166" selection-end-column="22" />
+            <state relative-caret-position="425">
+              <caret line="112" column="69" selection-start-line="112" selection-start-column="69" selection-end-line="112" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/views/devices/index.ejs">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+            <state relative-caret-position="206">
+              <caret line="424" column="20" selection-start-line="424" selection-start-column="20" selection-end-line="424" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -81,40 +327,57 @@
       <find>search</find>
       <find>id</find>
       <find>opcje</find>
+      <find>project</find>
+      <find>project-</find>
+      <find>project-im</find>
+      <find>http</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/service/views/auth/login.ejs" />
         <option value="$PROJECT_DIR$/service/views/service.ejs" />
         <option value="$PROJECT_DIR$/service/views/devices/desc.ejs" />
         <option value="$PROJECT_DIR$/service/views/devices/addDevice.ejs" />
         <option value="$PROJECT_DIR$/service/views/devices/addClient.ejs" />
         <option value="$PROJECT_DIR$/service/app.js" />
-        <option value="$PROJECT_DIR$/views/index.html" />
         <option value="$PROJECT_DIR$/service/routes/auth.js" />
         <option value="$PROJECT_DIR$/service/views/auth/profile.ejs" />
         <option value="$PROJECT_DIR$/service/views/partials/header.ejs" />
         <option value="$PROJECT_DIR$/service/views/devices/index.ejs" />
         <option value="$PROJECT_DIR$/public/javascripts/service.js" />
+        <option value="$PROJECT_DIR$/SkyGate/views/partials/header.ejs" />
+        <option value="$PROJECT_DIR$/SkyGate/views/partials/footer.ejs" />
+        <option value="$PROJECT_DIR$/SkyGate/app.js" />
+        <option value="$PROJECT_DIR$/config.json" />
+        <option value="$PROJECT_DIR$/STRV/app.js" />
+        <option value="$PROJECT_DIR$/STRV/.env" />
+        <option value="$PROJECT_DIR$/STRV/routes/auth.js" />
+        <option value="$PROJECT_DIR$/STRV/views/partials/header.ejs" />
+        <option value="$PROJECT_DIR$/SkyGate/views/index.ejs" />
+        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/views/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="width" value="1301" />
-    <option name="height" value="1391" />
+    <option name="x" value="-12" />
+    <option name="y" value="19" />
+    <option name="width" value="1302" />
+    <option name="height" value="1373" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,25 +388,24 @@
             <path>
               <item name="appPackage" type="b2602c69:ProjectViewProjectNode" />
               <item name="appPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appPackage" type="b2602c69:ProjectViewProjectNode" />
               <item name="appPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appPackage" type="b2602c69:ProjectViewProjectNode" />
               <item name="appPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="devices" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,18 +417,19 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Dell\WebstormProjects\appPackage\public\javascripts" />
-      <recent name="C:\Users\Dell\WebstormProjects\appPackage\views" />
-      <recent name="C:\Users\Dell\WebstormProjects\appPackage" />
-      <recent name="C:\Users\Dell\WebstormProjects\appPackage\public\stylesheets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Dell\WebstormProjects\appPackage\public\images" />
-      <recent name="C:\Users\Dell\WebstormProjects\appPackage\public\stylesheets" />
       <recent name="C:\Users\Dell\WebstormProjects\appPackage\public\javascripts" />
+      <recent name="C:\Users\Dell\WebstormProjects\appPackage\public\stylesheets" />
+      <recent name="C:\Users\Dell\WebstormProjects\appPackage\public" />
+      <recent name="C:\Users\Dell\WebstormProjects\appPackage\public\images" />
       <recent name="C:\Users\Dell\WebstormProjects\appPackage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\WebstormProjects\appPackage\routes" />
+      <recent name="C:\Users\Dell\WebstormProjects\appPackage\public\javascripts" />
       <recent name="C:\Users\Dell\WebstormProjects\appPackage\views" />
+      <recent name="C:\Users\Dell\WebstormProjects\appPackage" />
+      <recent name="C:\Users\Dell\WebstormProjects\appPackage\public\stylesheets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -192,23 +455,24 @@
       <option name="presentableId" value="Default" />
       <updated>1554836938506</updated>
       <workItem from="1554836939709" duration="1808000" />
-      <workItem from="1554913071277" duration="5548000" />
+      <workItem from="1554913071277" duration="6956000" />
+      <workItem from="1555086364766" duration="5629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7356000" />
+    <option name="totallyTimeSpent" value="14393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20190024" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30047506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49881235" weight="0.32876712" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -216,8 +480,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50059384" side_tool="true" visible="true" weight="0.32627645" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4994062" visible="true" weight="0.32627645" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011876" side_tool="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49881235" weight="0.32254046" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -227,56 +491,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service/bin/www">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iPlanetCare/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/vendor/jquery-3.3.1.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="176" column="22" selection-start-line="176" selection-start-column="22" selection-end-line="176" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/vendors.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -287,16 +501,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js" />
     <entry file="file://$PROJECT_DIR$/public/javascripts/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -311,11 +516,6 @@
         <state relative-caret-position="272">
           <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iPlanetCare/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/views/auth/login.ejs">
@@ -399,13 +599,6 @@
     <entry file="file://$PROJECT_DIR$/service/views/devices/adds/addResult.ejs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="94" column="94" selection-start-line="94" selection-start-column="94" selection-end-line="94" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/routes/auth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
@@ -429,36 +622,155 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="1326">
           <caret line="78" column="21" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/routes/service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="8364">
           <caret line="492" column="53" selection-start-line="492" selection-start-column="47" selection-end-line="492" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/views/partials/header.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="-305">
           <caret line="103" column="65" selection-start-line="103" selection-start-column="65" selection-end-line="103" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/views/devices/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="166" column="22" selection-start-line="166" selection-start-column="22" selection-end-line="166" selection-end-column="22" />
+        <state relative-caret-position="443">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/views/devices/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iPlanetCare/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/mainSite.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/mainSite.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STRV/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STRV/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="95" column="22" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STRV/routes/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="60" column="53" lean-forward="true" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STRV/public/stylesheets/strv.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STRV/views/partials/header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/strv.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkyGate/views/partials/header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkyGate/views/partials/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/skygate.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/skygate.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkyGate/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkyGate/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkyGate/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkyGate/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="424" column="20" selection-start-line="424" selection-start-column="20" selection-end-line="424" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="112" column="69" selection-start-line="112" selection-start-column="69" selection-end-line="112" selection-end-column="69" />
         </state>
       </provider>
     </entry>

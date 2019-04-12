@@ -7,6 +7,14 @@
     {
       "route": "/shop",
       "address": "http://localhost:4001"
+    },
+    {
+      "route": "/skygate",
+      "address": "http://localhost:4002"
+    },
+    {
+      "route": "/strv",
+      "address": "http://localhost:4003"
     }
   ]
 }

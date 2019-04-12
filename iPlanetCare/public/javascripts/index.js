@@ -177,15 +177,15 @@ $('.modalParametrSave').click((e) => {
         })
     })
 });
-$('#remove').click((e) => {
+/*$('#remove').click((e) => {
     e.preventDefault()
     let id = $('#remove').attr('href');
     $.ajax({
         url: '/remove-from-cart/'+id,
-        method: 'put',
+        method: 'get',
         success: location.reload()
     });
-});
+});*/
 
 
 $('#ModalAddColor,#ModalAddHDD,#ModalAddConn,#ModalAddRam,#ModalAddRes,#ModalAddSize,#ModalAddCase,#ModalAddColorBands').click((e) => {

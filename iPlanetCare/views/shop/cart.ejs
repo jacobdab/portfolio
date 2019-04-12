@@ -15,7 +15,7 @@
                             <li class="list-group-item w-50">Cena za sztukę <%=cartE.item.price%> zł</li>
                             <div class="row">
                                 <div class="col-lg-8"><li class="list-group-item">Cena <%=cartE.price%> zł</li></div>
-                                <div class="col-lg-4"><li class="list-group-item"><a id="remove" href='<%=cartE.item._id%>'><i class="fas fa-minus laguna-color"></i></a> Ilość <%=cartE.qty%> <a href='/add-to-cart/<%=cartE.item._id%>'><i class="fas fa-plus laguna-color"></i></a></li></div>
+                                <div class="col-lg-4"><li class="list-group-item"><a id="remove" href='/remove-from-cart/<%=cartE.item._id%>/'><i class="fas fa-minus laguna-color"></i></a> Ilość <%=cartE.qty%> <a href='/add-to-cart/<%=cartE.item._id%>'><i class="fas fa-plus laguna-color"></i></a></li></div>
                             </div>
                         </ul>
                     </div>
