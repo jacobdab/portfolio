@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@angular/cli": "^7.3.7",
-    "async": "^2.6.2",
+    "async": "^2.6.4",
     "blocked": "^1.2.1",
     "body-parser": "^1.18.3",
     "browserify": "^16.2.3",
